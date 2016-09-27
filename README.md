@@ -23,6 +23,8 @@ to install all of the node module dependencies...
 
 i haven't added them in the repo because the files are too big and will take too much space on the cloud. just installing npm will download all the dependencies in our project.json file.
 
+the versions of each package are indentified in the package.json file... feel free to go and remove them to fetch the latest versions or specify the version you're looking for.
+
 then we run simply webpack and this will take care of all the bundling we need to do. we can also add the -w flag to keep watching for changes.
 
 once npm install and webpack is finished. run node server.js and this will start a local host server that shows our website on port 3000.
